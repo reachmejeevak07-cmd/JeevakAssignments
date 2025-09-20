@@ -1,6 +1,4 @@
 // Program to find even number
-
-let number = 8; 
 function isoddoreven(number) {
     if (number % 2 === 0)
     {
@@ -11,12 +9,11 @@ function isoddoreven(number) {
         console.log("odd number");  
     }
 }
+let number = 8; 
 isoddoreven(number)
 
 
 // Program to find odd number
-
-let num = 9;
 function isoddoreven(num) {
     if (num % 2 === 0)
     {
@@ -27,4 +24,5 @@ function isoddoreven(num) {
         console.log("odd number");  
     }
 }
+let num = 9;
 isoddoreven(num)
