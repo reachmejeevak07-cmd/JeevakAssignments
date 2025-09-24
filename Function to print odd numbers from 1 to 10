@@ -1,8 +1,0 @@
-function printOddNumbers() {
-    for (let i = 1; i <= 25; i++) {
-        if (i % 2 !== 0) {   // check if the number is odd
-            console.log(i);
-        }
-    }
-}
-printOddNumbers();
