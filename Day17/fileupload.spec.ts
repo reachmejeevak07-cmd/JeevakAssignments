@@ -46,5 +46,4 @@ await page.waitForTimeout(3000)
 
 })
 
-//Scenario2 : When we don't have "type=file" attribute in the DOM
 
