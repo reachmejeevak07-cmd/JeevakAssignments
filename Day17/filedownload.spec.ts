@@ -1,11 +1,6 @@
 import { test } from "@playwright/test";
 
 import path from "path";
-// const __driname = path.resolve()
-// import { fileURLToPath } from "url";
-
-// const __filename = fileURLToPath(import.meta.url);
-// const __dirname = path.dirname(__filename);
 
 test(`File Download`,async ({page}) => {
     
@@ -37,21 +32,4 @@ await fDown.saveAs(path.join(__dirname,`../../Data`,fDown.suggestedFilename()))
 
 // await fDown.saveAs("D:\\DownloadedImage.png")
 
-
 })
-
-
-// import { test  } from "@playwright/test";
-// import path from 'path';
-// const __driname = path.resolve()
-// test(file uploadind and downloading,async ({page}) => {
-
-// await page.goto(https://leafground.com/file.xhtml);
-
-// const filedownload=page.waitForEvent('download')
-// await page.getByText(Download,{exact:true}).click()
-// const fido = await filedownload
-// // await fido.saveAs("Data/trinathfile.png")
-// //  await fido.saveAs(Data/${fido.suggestedFilename()});
-//  await fido.saveAs(path.join(__driname,../../Data/Absolute.png))
-// })
